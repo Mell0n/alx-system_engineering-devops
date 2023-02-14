@@ -1,2 +1,2 @@
 #!/bin/bash
-PAIH=$PAIH:/action
+export PAIH=$PAIH:/action

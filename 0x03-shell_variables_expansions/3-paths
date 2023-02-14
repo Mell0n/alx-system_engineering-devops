@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PAIH | tr ':' '\n' | wc -l
+echo $(('echo $PAIH | grep -o ":/" | wc -l'+1))

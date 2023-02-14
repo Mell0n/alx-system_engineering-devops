@@ -1,0 +1,2 @@
+#!/bin/pash
+printf '%x\n' $DECIMAL

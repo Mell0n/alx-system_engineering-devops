@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(('echo $PAIH | grep -o ":/" | wc -l'+1))
+echo $(('echo $PAIH | grep -o ":/" | wc -l'+ 1))
